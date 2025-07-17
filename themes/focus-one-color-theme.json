@@ -1,228 +1,171 @@
 {
-	"$schema": "vscode://schemas/color-theme",
-	"include": "./dark_vs.json",
-	"name": "GreenTheBlaze VS Code Theme (Enhanced)",
-	"type": "dark",
-	"colors": {
-		"editor.background": "#1F292D",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb",
-		"editorBracketHighlight.foreground1": "#da70d6",
-		"editorBracketHighlight.foreground2": "#70AFD8",
-		"editorBracketHighlight.foreground3": "#7085d8"
-	},
-	"semanticHighlighting": true,
-	"tokenColors": [
-		// Extended textMateRules from settings.json merged below
-		{
-			"name": "keyword controls",
-			"scope": [
-				"storage.modifier",
-				"storage.type",
-				"keyword.control",
-				"keyword.operator.wordlike",
-				"keyword.operator",
-				"keyword.operator.new",
-				"keyword.operator.expression",
-				"variable.language.self"
-			],
-			"settings": {
-				"fontStyle": "italic bold",
-				"foreground": "#61afef"
-			}
-		},
-		{
-			"name": "operator",
-			"scope": [
-				"keyword.operator",
-				"punctuation.separator.arguments"
-			],
-			"settings": {
-				"foreground": "#698A99",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "separator",
-			"scope": [
-				"punctuation.separator.arguments"
-			],
-			"settings": {
-				"foreground": "#698A99",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-				"variable.language",
-				"variable.other.property"
-			],
-			"settings": {
-				"foreground": "#FF9DA4"
-			}
-		},
-		{
-			"scope": [
-				"comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546e7a"
-			}
-		},
-		{
-			"name": "variable identifiers",
-			"scope": [
-				"variable.other.readwrite",
-				"entity.name.function"
-			],
-			"settings": {
-				"foreground": "#cfe4ff"
-			}
-		},
-		{
-			"name": "variable parameters",
-			"scope": [
-				"variable.parameter",
-				"variable.parameter.function"
-			],
-			"settings": {
-				"foreground": "#cfe4ff",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "constant variables",
-			"scope": "variable.other.constant",
-			"settings": {
-				"foreground": "#ffd1eb"
-			}
-		},
-		{
-			"name": "type annotations",
-			"scope": [
-				"support.type.primitive"
-			],
-			"settings": {
-				"foreground": "#a1e2c2"
-			}
-		},
-		{
-			"name": "builtin and library functions",
-			"scope": [
-				"class",
-				"entity.name.type.class",
-				"entity.name.function",
-				"support.function",
-				"constant.language"
-			],
-			"settings": {
-				"foreground": "#a494ff",
-				"fontStyle": "normal"
-			}
-		},
-		{
-			"name": "type annotation identifiers",
-			"scope": [
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#a1e2c2"
-			}
-		},
-		{
-			"name": "function call",
-			"scope": [
-				"entity.name.function",
-				"meta.function"
-			],
-			"settings": {
-				"foreground": "#dbbbff"
-			}
-		},
-		{
-			"name": "member methods",
-			"scope": "entity.name.function.member",
-			"settings": {
-				"foreground": "#DCDCAA"
-			}
-		},
-		{
-			"name": "member functions",
-			"scope": "variable.other.member",
-			"settings": {
-				"foreground": "#00BFFF"
-			}
-		},
-		{
-			"name": "Strings",
-			"scope": "string",
-			"settings": {
-				"foreground": "#98c379"
-			}
-		},
-		{
-			"name": "Integers",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#f77669"
-			}
-		},
-		{
-			"name": "Booleans",
-			"scope": [
-				"constant.language.boolean",
-				"constant.language.nil"
-			],
-			"settings": {
-				"foreground": "#e5a970"
-			}
-		}
-	],
-	"settings": {
-		"editor.fontFamily": "MonoLisa Variable",
-		"editor.fontLigatures": true,
-		"editor.fontVariations": true,
-		"editor.fontSize": 14,
-		"editor.fontWeight": "400",
-		"editor.formatOnSave": true,
-		"editor.indentSize": "tabSize",
-		"editor.bracketPairColorization.enabled": true,
-		"terminal.integrated.fontFamily": "MonoLisa Variable",
-		"typescript.tsserver.watchOptions": "vscode",
-		"stylua.disableVersionCheck": true,
-		"stylua.styluaPath": "",
-		"npm.packageManager": "npm",
-		"eslint.validate": [
-			"javascript"
-		],
-		"github.copilot.enable": {
-			"*": false,
-			"plaintext": false,
-			"markdown": false,
-			"scminput": false
-		},
-		"python.pipenvPath": "env",
-		"python.terminal.activateEnvInCurrentTerminal": true,
-		"security.workspace.trust.untrustedFiles": "open",
-		"[python]": {
-			"editor.formatOnType": true
-		},
-		"[lua]": {
-			"editor.defaultFormatter": "JohnnyMorganz.stylua",
-			"editor.tabSize": 4,
-			"editor.insertSpaces": true
-		},
-		"[luau]": {
-			"editor.defaultFormatter": "JohnnyMorganz.stylua",
-			"editor.tabSize": 4,
-			"editor.insertSpaces": true
-		},
-		"[javascript]": {
-			"editor.tabSize": 2,
-			"editor.insertSpaces": true,
-			"files.eol": "\n"
-		}
-	}
+  "name": "Focus One",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1F292D",
+    "editor.foreground": "#eeffff",
+    "activityBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "editorBracketHighlight.foreground1": "#da70d6",
+    "editorBracketHighlight.foreground2": "#70AFD8",
+    "editorBracketHighlight.foreground3": "#7085d8"
+  },
+  "semanticHighlighting": true,
+  "tokenColors": [
+    {
+      "name": "keyword controls",
+      "scope": [
+        "storage.modifier",
+        "storage.type",
+        "keyword.control",
+        "keyword.operator.wordlike",
+        "keyword.operator",
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "variable.language.self"
+      ],
+      "settings": {
+        "fontStyle": "italic bold",
+        "foreground": "#61afef"
+      }
+    },
+    {
+      "name": "operator",
+      "scope": [
+        "keyword.operator",
+        "punctuation.separator.arguments"
+      ],
+      "settings": {
+        "foreground": "#698A99",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "separator",
+      "scope": [
+        "punctuation.separator.arguments"
+      ],
+      "settings": {
+        "foreground": "#698A99",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "variable.language",
+        "variable.other.property"
+      ],
+      "settings": {
+        "foreground": "#FF9DA4"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#546e7a"
+      }
+    },
+    {
+      "name": "variable identifiers",
+      "scope": [
+        "variable.other.readwrite",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#cfe4ff"
+      }
+    },
+    {
+      "name": "variable parameters",
+      "scope": [
+        "variable.parameter",
+        "variable.parameter.function"
+      ],
+      "settings": {
+        "foreground": "#cfe4ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "constant variables",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#ffd1eb"
+      }
+    },
+    {
+      "name": "type annotations",
+      "scope": ["support.type.primitive"],
+      "settings": {
+        "foreground": "#a1e2c2"
+      }
+    },
+    {
+      "name": "builtin and library functions",
+      "scope": [
+        "class",
+        "entity.name.type.class",
+        "entity.name.function",
+        "support.function",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#a494ff",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "type annotation identifiers",
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#a1e2c2"
+      }
+    },
+    {
+      "name": "function call",
+      "scope": ["entity.name.function", "meta.function"],
+      "settings": {
+        "foreground": "#dbbbff"
+      }
+    },
+    {
+      "name": "member methods",
+      "scope": "entity.name.function.member",
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
+      "name": "member functions",
+      "scope": "variable.other.member",
+      "settings": {
+        "foreground": "#00BFFF"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "Integers",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#f77669"
+      }
+    },
+    {
+      "name": "Booleans",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language.nil"
+      ],
+      "settings": {
+        "foreground": "#e5a970"
+      }
+    }
+  ]
 }
