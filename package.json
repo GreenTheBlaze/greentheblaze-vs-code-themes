@@ -1,0 +1,21 @@
+{
+  "name": "greentheblaze-vs-code-theme",
+  "displayName": "GreenTheBlaze VS Code Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GreenTheBlaze VS Code Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GreenTheBlaze VS Code Theme-color-theme.json"
+      }
+    ]
+  }
+}
