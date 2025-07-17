@@ -1,5 +1,5 @@
 {
-  "name": "Focus One",
+  "name": "GreenTheBlaze Focus One (Shiki Compatible)",
   "type": "dark",
   "colors": {
     "editor.background": "#1F292D",
@@ -26,7 +26,8 @@
       ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#61afef"
+        "foreground": "#61afef",
+		"fontFamily": "MonoLisa Variable"
       }
     },
     {
